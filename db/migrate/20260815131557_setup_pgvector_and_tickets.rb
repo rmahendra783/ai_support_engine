@@ -11,7 +11,7 @@ class SetupPgvectorAndTickets < ActiveRecord::Migration[8.1]
       t.string :priority
       t.string :sentiment
       t.string :status, default: "pending", null: false
-      
+
       # 1536-dimensional float array (text-embedding-3-small standard)
       t.vector :embedding, limit: 1536
 

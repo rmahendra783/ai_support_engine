@@ -66,4 +66,4 @@ gem "neighbor"
 gem "ruby-openai"
 
 # Environment variables management for secure API keys
-gem "dotenv-rails", groups: [:development, :test]
+gem "dotenv-rails", groups: [ :development, :test ]

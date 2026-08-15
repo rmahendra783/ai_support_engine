@@ -44,7 +44,7 @@ module Ai
       response = @client.chat(
         parameters: {
           model: CHAT_MODEL,
-          messages: [{ role: "user", content: prompt }],
+          messages: [ { role: "user", content: prompt } ],
           response_format: { type: "json_object" }
         }
       )
