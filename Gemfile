@@ -58,3 +58,12 @@ group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 end
+
+# Vector database integration for ActiveRecord
+gem "neighbor"
+
+# Official OpenAI wrapper for Chat & Embeddings
+gem "ruby-openai"
+
+# Environment variables management for secure API keys
+gem "dotenv-rails", groups: [:development, :test]
